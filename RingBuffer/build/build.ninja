@@ -46,7 +46,6 @@ build cmake_object_order_depends_target_test: phony || cmake_object_order_depend
 
 build CMakeFiles/test.dir/Test.cpp.obj: CXX_COMPILER__test_unscanned_ D$:/Study/Intern_code/RingBuffer/Test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles\test.dir\Test.cpp.obj.d
-  FLAGS = --coverage
   INCLUDES = -ID:/Study/Intern_code/RingBuffer -isystem D:/Study/Intern_code/RingBuffer/build/_deps/googletest-src/googletest/include -isystem D:/Study/Intern_code/RingBuffer/build/_deps/googletest-src/googletest
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir

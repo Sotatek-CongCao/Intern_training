@@ -77,3 +77,59 @@ TEST(RingBufferTest, EmptyRemove)
     EXPECT_EQ(ringbuffer_remove(&value), -1);
     EXPECT_TRUE(ringbuffer_is_empty());
 }
+TEST(RingBufferTest, InitInvalid)
+{
+    ringbuffer_init(0); // đoạn này trong yêu cầu chưa có trường hợp này sẽ xử lý ntn
+
+    EXPECT_TRUE(ringbuffer_is_empty());
+    EXPECT_FALSE(ringbuffer_is_full());
+    EXPECT_EQ(ringbuffer_size(), 0);
+}
+
+TEST(RingBufferTest, AddWithoutInit)
+{
+    ringbuffer_init(0);
+
+    EXPECT_EQ(ringbuffer_add(10), -1);
+}
+
+TEST(RingBufferTest, RemoveWithoutInit)
+{
+    ringbuffer_init(0);
+
+    int value;
+
+    EXPECT_EQ(ringbuffer_remove(&value), -1);
+}
+
+TEST(RingBufferTest, FullWithoutInit)
+{
+    ringbuffer_init(0);
+
+    EXPECT_FALSE(ringbuffer_is_full());
+}
+
+TEST(RingBufferTest, WrapAround)
+{
+    ringbuffer_init(3);
+
+    EXPECT_EQ(ringbuffer_add(10), 0);
+    EXPECT_EQ(ringbuffer_add(20), 0);
+    EXPECT_EQ(ringbuffer_add(30), 0);
+
+    int value;
+
+    EXPECT_EQ(ringbuffer_remove(&value), 0);
+    EXPECT_EQ(value, 10);
+
+    EXPECT_EQ(ringbuffer_remove(&value), 0);
+    EXPECT_EQ(value, 20);
+
+    EXPECT_EQ(ringbuffer_add(40), 0);
+
+    EXPECT_EQ(ringbuffer_remove(&value), 0);
+    EXPECT_EQ(value, 30);
+
+    EXPECT_EQ(ringbuffer_remove(&value), 0);
+    EXPECT_EQ(value, 40);
+}
