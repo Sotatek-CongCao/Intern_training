@@ -1,0 +1,21 @@
+# ninja log v7
+2	63	8111496627925372	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e7b91e3a3ba3bb79
+2	63	8111496627925372	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	e7b91e3a3ba3bb79
+64	7205	8111496699354116	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e429118cb8095b0a
+64	7205	8111496699354116	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	e429118cb8095b0a
+7205	7444	8111496699433771	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7a13577c7c1c99c1
+7205	7444	8111496699433771	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	7a13577c7c1c99c1
+7444	7521	8111496702513596	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	8ebfaaf811d4b6d5
+7444	7521	8111496702513596	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	8ebfaaf811d4b6d5
+7521	7602	8111496703302919	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e20347be22b5776
+7521	7602	8111496703302919	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	e20347be22b5776
+7602	7696	8111496704275369	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1f115746d328a63
+7602	7696	8111496704275369	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	1f115746d328a63
+7696	7779	8111496705098667	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	b07455e4cc6a04eb
+7696	7779	8111496705098667	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	b07455e4cc6a04eb
+7779	7853	8111496705847339	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	45dcd10fb68c1eb0
+7779	7853	8111496705847339	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	45dcd10fb68c1eb0
+7854	7974	8111496707029253	CMakeFiles/googletest-populate-complete	13b64b7ca72b44b4
+7854	7974	8111496707029253	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	13b64b7ca72b44b4
+7854	7974	8111496707029253	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	13b64b7ca72b44b4
+7854	7974	8111496707029253	D:/Study/Intern_code/RingBuffer/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	13b64b7ca72b44b4

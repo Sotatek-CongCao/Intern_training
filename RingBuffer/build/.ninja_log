@@ -1,0 +1,13 @@
+# ninja log v7
+32	378	8111496709709082	CMakeFiles/ringbuff.dir/ringbuff.c.obj	a737361c1573a785
+379	646	8111496713171986	libringbuff.a	6c18f7bbaa79f11a
+52	2075	8111496709897259	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	c31b4091577d3b2c
+60	2315	8111496709987441	CMakeFiles/test.dir/Test.cpp.obj	835bab565d41cf2d
+71	2365	8111496710082877	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	3aa4ef844c471f63
+42	3548	8111496709797021	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	df95255d6bea6ec4
+24	8329	8111496709609327	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	45351c7830e5c23d
+8331	8554	8111496792652225	lib/libgtest.a	5e7c328868506031
+8562	8704	8111496794864694	lib/libgtest_main.a	2ef498cf96a6f023
+8554	8720	8111496794864694	lib/libgmock.a	a2246486b9fbfed0
+8720	8839	8111496796558196	lib/libgmock_main.a	aeabc9f2cc392683
+8704	9064	8111496796404067	test.exe	8aff9321d1a23a64
